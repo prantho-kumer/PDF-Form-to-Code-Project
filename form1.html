@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="template.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row form-wrapper">
+      <div class="col-md-12">
+        <div class="title">
+           <h1>Personal information</h1>
+        </div>
+
+        <!-- form 1 -->
+        <form class="g-3 form1" action="menu.html">
+          <div class="row per-info-h">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+              <label class="form-label">Employee</label>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Manager</label>
+            </div>
+          </div>
+          <!-- row single -->
+          <div class="row form-r-single">
+              <div class="col-md-4">
+                <label for="inputEmail4" class="form-label">Name: </label>
+              </div>
+              <div class="col-md-4">
+                <input type="text" class="form-control" id="name" placeholder="Employee">
+              </div>
+              <div class="col-md-4">
+                <input type="text" class="form-control" id="" placeholder="Manager">
+              </div>
+          </div>
+          <!-- row single -->
+          <div class="row form-r-single">
+            <div class="col-md-4 b-text">
+              <label for="" class="form-label ">PRI/HRMIS number for RCMP/
+                DND service number for military: </label>
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" id="" placeholder="Employee">
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control" id="" placeholder="Manager">
+            </div>
+          </div>
+          <!-- row single -->
+          <div class="row form-r-single">
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Date of birth: </label>
+            </div>
+            <div class="col-md-4">
+              <input type="date" class="form-control" id="inputEmail4" placeholder="Employee">
+            </div>
+            <div class="col-md-4">
+              <input type="date" class="form-control" id="inputEmail4" placeholder="Manager">
+            </div>
+          </div>
+           <!-- row single -->
+           <div class="row form-r-single">
+             <div class="col-md-4">
+               <label for="inputEmail4" class="form-label">Organization: </label>
+             </div>
+             <div class="col-md-4">
+               <input type="text" class="form-control" id="inputEmail4" placeholder="Employee">
+             </div>
+             <div class="col-md-4">
+               <input type="text" class="form-control" id="inputEmail4" placeholder="Manager">
+             </div>
+           </div>
+           <!-- options single -->
+           <section class="options-s">
+             <div class="sec-title">
+               <h1>I attest that my COVID-19 vaccination status is: <span class="t-red">(required)</span></h1>
+               <div class="sub-title-box">
+                 <p> As defined by the <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32694"
+                     target="_blank">Policy on COVID-19 Vaccination for the Core Public Administration Including the
+                     Royal Canadian Mounted Police.</a></p>
+               </div>
+             </div>
+             <!-- cov status options -->
+             <div class="form-check">
+               <input class="form-check-input" type="radio" name="op1" id="op11" required>
+               <label class="form-check-label" for="op11">
+                 Fully vaccinated
+               </label>
+             </div>
+             <div class="form-check">
+               <input class="form-check-input" type="radio" name="op1" id="op12" >
+               <label class="form-check-label" for="op12">
+                Partially vaccinated (in addition to your attestation, you must also provide your manager with the date
+                of
+                your first vaccination)
+               </label>
+             </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="op1" id="op13" >
+                <label class="form-check-label" for="op13">
+                  Unvaccinated
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="op1" id="op14" >
+                <label class="form-check-label" for="op14">
+                  Unvaccinated because I am requesting accommodation
+                </label>
+              </div>
+           </section>
+          
+            <!-- options single -->
+            <section class="options-s">
+              <div class="sec-title s-title">
+                <h1>I am requesting accommodation</h1>
+                <div class="sub-title-box">
+                  <p>This section is required if you have indicated that you are unvaccinated because you require
+                    accommodation.</p>
+                </div>
+              </div>
+              <!-- cov status options  single-->
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="op2" id="op21" >
+                <label class="form-check-label" for="op21">
+                  Due to a medical <a
+                    href="https://www.canada.ca/en/public-health/services/publications/healthy-living/canadian-immunization-guide-part-2-vaccine-safety/page-3-contraindications-precautions-concerns.html" target="_blank">contraindication</a>
+                  <span class="t-bold">(or)</span>
+                </label>
+              </div>
+              <!-- cov status options  single-->
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="op2" id="op22">
+                <label class="form-check-label" for="op22">
+                  Under a prohibited ground of discrimination under <a
+                    href="https://laws-lois.justice.gc.ca/eng/acts/h-6/page-1.html#h-256800" target="_blank">s.3(1) of the Canadian
+                    Human Rights
+                    Act</a>
+                </label>
+              </div>
+            </section>
+
+             <!-- options single -->
+             <section class="options-s s-title">
+               <div class="sec-title">
+                 <h1>Indicate Canadian Human Rights Act ground</h1>
+                 <div class="sub-title-box">
+                   <p>This section is required if you have indicated that you are unvaccinated under a prohibited ground
+                     of
+                     discrimination under s.3(1) of the Canadian Human Rights Act.</p>
+                 </div>
+               </div>
+               <!-- cov status options  single-->
+               <div class="form-check">
+                 <input class="form-check-input" type="radio" name="op3" id="op31">
+                 <label class="form-check-label" for="op31">Religion <span class="t-bold">(or)</span>
+                 </label>
+               </div>
+               <!-- cov status options  single-->
+               <div class="form-check">
+                 <input class="form-check-input" type="radio" name="op3" id="op32">
+                 <label class="form-check-label" for="op32">
+                   Another prohibited ground under <a
+                     href="https://laws-lois.justice.gc.ca/eng/acts/h-6/page-1.html#h-256800" target="_blank">s.3(1) of the Canadian
+                     Human Rights Act</a>
+                 </label>
+               </div>
+             </section>
+
+             <!-- consent -->
+             <div class="consent">
+               <p>
+                 By submitting this form, I certify that the statements I have made and the information I have disclosed
+                 in this
+                 form are true, complete, correct and in accordance with the <a
+                   href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049"> Values and Ethics Code for the
+                   Public
+                   Sector.</a> I
+                 understand that if my vaccination status changes, I must complete a new vaccination status attestation.
+                 I
+                 acknowledge that the information I submit in this form is subject to verification and audit and I
+                 specifically
+                 acknowledge that my manager reserves the right, at the manager’s sole discretion, to request proof of
+                 vaccination.
+               </p>
+             </div>
+
+          <div class="sign-date">
+            <div class="f-left">
+              <h2>Employee signature: </h2>
+            </div>
+            <div class="f-right">
+                <h2>Date:</h2> <input type="date" class="form-control" id="inputEmail4" placeholder="Employee">
+            </div>
+          </div>
+          
+          
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-primary form-button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+ 
+</div>
+
+
+ 
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
